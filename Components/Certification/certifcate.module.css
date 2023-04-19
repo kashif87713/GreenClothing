@@ -1,0 +1,30 @@
+.certif{
+    background-color: whitesmoke;
+    padding: 2rem 0;
+}
+.head{
+    font-size: 2.5rem;
+    color:rgb(3, 11, 31);
+}
+.head2{
+    color: rgb(80, 78, 78);
+    padding: 2rem;
+}
+.box{
+    height: 130px;
+    width: 95%;
+    background-color: white;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+}
+.box:hover{
+    background-color: white;
+}
+.img{
+    height: 130px;
+    padding: 1rem;
+}

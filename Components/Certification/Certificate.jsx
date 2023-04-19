@@ -20,7 +20,7 @@ export default function Certificate() {
                 <br />
                 <Grid container >
                     <Grid item xs={12} sm={12} md={6} lg={6}>
-                        <Typography className={styles.head} ><b>We are on the front line in the battle with global warming.</b></Typography>
+                        <p className={styles.head} ><b>We are on the front line in the battle with global warming.</b></p>
                     </Grid>
                     <Grid item xs={12} sm={12} md={6} lg={6}>
                         <Typography className={styles.head2}  >Our own manufacturing facilities have achieved carbon neutral status, and this is supported by a robust plan to continually work to reduce our gases.</Typography>

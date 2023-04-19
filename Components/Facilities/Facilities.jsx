@@ -25,6 +25,7 @@ export default function Facilities() {
             </Grid>
             <br />
             <br />
+            <Container>
             <Grid container className={styles.container} >
                 <Grid item xs={12} sm={12} md={3} lg={3}>
                     <Box className={styles.card} >
@@ -101,6 +102,7 @@ export default function Facilities() {
                 </Grid>
 
             </Grid>
+            </Container>
         </Box>
     )
 }

@@ -29,13 +29,13 @@ export default function Footer() {
           </Grid>
 
           <Grid item xs={12} sm={6} md={6} lg={3} className={styles.footerdetail} >
-              <Typography variant='h4' px={2} className={styles.footerheader}>Main Menu</Typography>
-              <Typography variant='h6' className={styles.menudetails} >Home</Typography>
-              <Typography variant='h6'  className={styles.menudetails}>About Us</Typography>
-              <Typography variant='h6'  className={styles.menudetails}>Services</Typography>
-              <Typography variant='h6'  className={styles.menudetails}>Facilities</Typography>
-              <Typography variant='h6'  className={styles.menudetails}>Mission</Typography>
-              <Typography variant='h6'  className={styles.menudetails}>Vision</Typography>
+              <p variant='h4' px={2} className={styles.footerheader}>Main Menu</p>
+              <p variant='h6' className={styles.menudetails} >Home</p>
+              <p variant='h6'  className={styles.menudetails}>About Us</p>
+              <p variant='h6'  className={styles.menudetails}>Services</p>
+              <p variant='h6'  className={styles.menudetails}>Facilities</p>
+              <p variant='h6'  className={styles.menudetails}>Mission</p>
+              <p variant='h6'  className={styles.menudetails}>Vision</p>
 
           </Grid>
 

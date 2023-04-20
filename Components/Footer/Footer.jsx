@@ -13,9 +13,9 @@ export default function Footer() {
       <Container>
         <Grid container >
           <Grid  item xs={12} sm={6} md={6} lg={3}>
-<p variant='h4' px={2} className={styles.footerheader} >About the Co</p>
-<Typography className={styles.about} pt={1} > Green clothing
- is one of the largest import export with a wide range of premium quality makeup products to provide the best value for money to global customers</Typography>
+<p variant='h4'  className={styles.footerheader} >About the Co</p>
+<p className={styles.about} pt={1} > Green clothing
+ is one of the largest import export with a wide range of premium quality makeup products to provide the best value for money to global customers</p>
           </Grid>
 
           <Grid item xs={12} sm={6} md={6} lg={3} className={styles.footerdetail} >
@@ -40,7 +40,7 @@ export default function Footer() {
           </Grid>
 
           <Grid item xs={12} sm={6} md={6} lg={3} className={styles.footerdetail} id='contact' >
-              <p variant='h4' px={3} className={styles.footerheader}  >Contact Us</p>
+              <p variant='h4'  className={styles.footerheader}  >Contact Us</p>
               <Box className={styles.boxIcon} >
              <div className={styles.ico}  ><PhoneSharpIcon fontSize="medium" /></div> 
               <div className={styles.icons} >+923217515234</div>

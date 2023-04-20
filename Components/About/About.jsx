@@ -1,6 +1,9 @@
 import React from 'react';
 import { Box, Typography, Grid, Container } from "@mui/material";
 import styles from './about.module.css';
+import Image from "next/image";
+import img from '../../Images/finshing.jpeg'
+
 
 
 
@@ -35,6 +38,9 @@ export default function About() {
 
                     </Grid>
 
+<Grid xs={12} sm={12} md={4} lg={4} >
+<Image src={img} className={styles.img} />
+</Grid>
                 </Grid>
             </Container>
         </Box>

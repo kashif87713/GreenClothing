@@ -1,11 +1,27 @@
 .about{
     height: 75vh;
     background-color: #071E57;
+        background: url('../../Images/bg\ \(2\).jpeg');
+        height: 60vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        position: relative;   
 }
+.about::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+    
+    }
 .abouthead{
-    padding-top: 15rem;
+    padding-top: 12rem;
     color: white;
-   
+   position: absolute;
 }
 .h1{
     font-size: 4rem;
@@ -13,4 +29,10 @@
 .text{
     font-size: 1rem;
     line-height: 30px;
+}
+.img{
+    height: 400px;
+    width: 95%;
+    padding: 0 1rem;
+    margin: auto;
 }

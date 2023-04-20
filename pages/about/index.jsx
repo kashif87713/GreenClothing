@@ -5,6 +5,9 @@ import { Typography, Container, Grid } from '@mui/material';
 import Mission from '../../Components/Mission/Mission';
 import Vision from '../../Components/Vision/Vision';
 import Target from '../../Components/Target/Target';
+import img from '../../Images/packing.jpeg'
+import Image from "next/image";
+
 export default function About() {
     return (
         <>
@@ -21,7 +24,9 @@ export default function About() {
                     <br />
                     <Grid container >
                         <Grid item xs={12} sm={12} md={6} lg={6} >
-
+                        <br/>
+                        <br/>
+<Image src={img} className={styles.img} />
                         </Grid>
                         <Grid item xs={12} sm={12} md={6} lg={6} >
                             <Typography variant="h4" ><b>About Us</b></Typography>

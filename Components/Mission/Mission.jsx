@@ -14,7 +14,7 @@ export default function Mission() {
                         <Typography>
                             <ul>
                                 <li>As part of our total Quality Management philosphy, we continuously search for options to give the best prices & quality with lean system production
-            to our value customers and long term strategic partners .  </li>
+                                to our value customers and long term strategic partners .  </li>
                                 <br />
                                 <li>
                                     To strive Excellence through committment , integrity, honesty and teamwork

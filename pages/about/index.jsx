@@ -44,21 +44,21 @@ export default function About() {
                     </Grid>
                 </Box>
             </Container>
-            <br/>
-            <br/>
-            <br/>
-            <Mission/>
-            <br/>
-            <br/>
-            <br/>
-            <Vision/>
-            <br/>
-            <br/>
-            <br/>
-            <Target/>
-            <br/>
-            <br/>
-            <br/>
+            <br />
+            <br />
+            <br />
+            <Mission />
+            <br />
+            <br />
+            <br />
+            <Vision />
+            <br />
+            <br />
+            <br />
+            <Target />
+            <br />
+            <br />
+            <br />
         </>
     )
 }

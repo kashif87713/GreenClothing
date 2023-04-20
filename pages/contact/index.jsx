@@ -1,26 +1,26 @@
 import React from 'react';
-import { Box, Typography, Grid, Container} from "@mui/material";
+import { Box, Typography, Grid, Container } from "@mui/material";
 import styles from './contact.module.css'
 
 export default function Contact() {
     return (
         <Box className={styles.contact} >
-                    <Box className={styles.abouthead} >
-            <Container>
-                        <Typography className={styles.h1} ><b>Contact Us</b></Typography>
-                        <Typography><b>Home /  Contact Us</b></Typography>
+            <Box className={styles.abouthead} >
+                <Container>
+                    <Typography className={styles.h1} ><b>Contact Us</b></Typography>
+                    <Typography><b>Home /  Contact Us</b></Typography>
                 </Container>
+            </Box>
+            <br />
+            <br />
+            <Grid container >
+                <Grid item xs={12} sm={12} md={12} lg={12} >
+                    <Box className={styles.msg} >
+                        <Typography className={styles.write} >Write a message</Typography>
+                        <Typography className={styles.msgdetails} >If you got any questions, please do not hesitate to send us a message. We reply within 24 hours !</Typography>
                     </Box>
-                <br/>
-                <br/>
-                <Grid container >
-                    <Grid item xs={12} sm={12} md={12} lg={12} >
-                        <Box className={styles.msg} >
-                            <Typography className={styles.write} >Write a message</Typography>
-                            <Typography className={styles.msgdetails} >If you got any questions, please do not hesitate to send us a message. We reply within 24 hours !</Typography>
-                        </Box>
-                    </Grid>
-                    <Container>
+                </Grid>
+                <Container>
                     <Grid item xs={12} sm={12} md={12} lg={12}>
                         <form action="">
                             <Grid container className={styles.form} >
@@ -46,9 +46,9 @@ export default function Contact() {
                             </Grid>
                         </form>
                     </Grid>
-                    </Container>
-                </Grid>
-                    <br/>
+                </Container>
+            </Grid>
+            <br />
         </Box>
     )
 }

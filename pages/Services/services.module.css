@@ -1,0 +1,58 @@
+.services{
+    background: url('../../Images/bg\ \(2\).jpeg') ;
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.services::before{
+position: absolute;
+content: "";
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background: rgba(0,0,0,0.7);
+}
+.head{
+    position: absolute;
+    padding-top: 13rem;
+    color: white;
+}
+.service{
+    height: auto;
+    width: 100%;
+    background-color: #BEBFBE;
+    padding: 2rem 0;
+}
+.header{
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: white;
+}
+.text{
+    display: flex;
+}
+.icon{
+    height: 29px;
+    width: 29px;
+    background-color: #071E57;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 0 10px 0 0;
+}
+.details{
+    color: white;
+    width: 78%;
+    font-size: 15px;
+    text-align: justify;
+}
+.img{
+    width: 95%;
+    height: 90vh;
+    border-radius: 5px;
+}

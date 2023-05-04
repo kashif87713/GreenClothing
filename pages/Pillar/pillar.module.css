@@ -1,0 +1,45 @@
+.pillar{
+    background: url('../../Images/bg\ \(2\).jpeg') ;
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.pillar::before{
+position: absolute;
+content: "";
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background: rgba(0,0,0,0.7);
+}
+.head{
+    position: absolute;
+    padding-top: 13rem;
+    color: white;
+}
+.pilartext{
+    font-weight: 700;
+font-size: 2.5rem;
+}
+.pilartext2{
+    color: rgb(148, 147, 147);
+}
+.box{
+    height: 22rem;
+    width: 90%;
+    background-color: rgb(245, 239, 239); 
+    padding: 35px 25px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    margin: 10px;
+}
+.h1{
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+.h2{
+    color: rgb(112, 110, 110);
+}

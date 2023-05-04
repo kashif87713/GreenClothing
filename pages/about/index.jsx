@@ -29,7 +29,7 @@ export default function About() {
 <Image src={img} className={styles.img} />
                         </Grid>
                         <Grid item xs={12} sm={12} md={6} lg={6} >
-                            <Typography variant="h4" ><b>About Us</b></Typography>
+                            <Typography variant="h4" align='center' ><b>About Us</b></Typography>
                             <br />
                             <br />
                             <Typography className={styles.text} >We are top leaders in creating innovation in garment design, developing unique fabric and manufacturing of knitting apperal products right from basic to highly fashioned garments thus responding to emerging trends in the industry .

@@ -3,6 +3,7 @@ import { Box, Typography, Grid, Container } from "@mui/material";
 import styles from './about.module.css';
 import Image from "next/image";
 import img from '../../Images/finshing.jpeg'
+import DoneIcon from '@mui/icons-material/Done';
 
 
 
@@ -23,15 +24,41 @@ export default function About() {
                         <Grid container >
                             <Grid item xs={12} sm={12} md={6} lg={6} >
                                 <Box className={styles.text1} >
-                                    <Typography>1 million unit P/M capacity </Typography>
+                                <Box className={styles.icon} ><DoneIcon/></Box>
+                                <Box className={styles.textdetail}>
+                                    <Typography >  1 million unit P/M capacity </Typography>
+                                </Box>
+                                </Box>
+                                <br/>
+                                <Box className={styles.text1} >
+                                <Box className={styles.icon} ><DoneIcon/></Box>
+                                <Box className={styles.textdetail}>
                                     <Typography>Achieved Carbon Neutral Factory 2021</Typography>
                                 </Box>
+                                </Box>
+                                <br/>
                             </Grid>
+                    
                             <Grid item xs={12} sm={12} md={6} lg={6} >
                                 <Box className={styles.text1} >
-                                    <Typography>30 Day Fast Track Production Service </Typography>
-                                    <Typography>7–14 Day Sample Service</Typography>
-                                    <Typography>200 Samples P/M Capacity</Typography>
+                                    <Box className={styles.icon} ><DoneIcon/></Box>
+                                <Box className={styles.textdetail}>
+                                 <Typography>30 Day Fast Track Production Service </Typography>
+                                </Box> 
+                                </Box>
+                                <br/>
+                                <Box className={styles.text1} >
+                                    <Box className={styles.icon} ><DoneIcon/></Box>
+                                <Box className={styles.textdetail}>
+                                 <Typography>7–14 Day Sample Service </Typography>
+                                </Box> 
+                                </Box>
+                                <br/>
+                                <Box className={styles.text1} >
+                                    <Box className={styles.icon} ><DoneIcon/></Box>
+                                <Box className={styles.textdetail}>
+                                 <Typography> 200 Samples P/M Capacity </Typography>
+                                </Box> 
                                 </Box>
                             </Grid>
                         </Grid>

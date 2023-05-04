@@ -1,14 +1,16 @@
 .certif{
     background-color: whitesmoke;
     padding: 2rem 0;
+    font-family: sofia-pro,sans-serif;
+
 }
 .head{
     font-size: 2.5rem;
     color:rgb(3, 11, 31);
 }
 .head2{
-    color: rgb(80, 78, 78);
-    padding: 2rem;
+    color: rgb(113, 114, 113);
+    padding:0 1rem;
 }
 .box{
     height: 130px;
@@ -27,4 +29,8 @@
 .img{
     height: 130px;
     padding: 1rem;
+}
+ .img:hover{
+        box-shadow: 0px 0px 15px #cccee0;
+        transform: scale(1.05);   
 }

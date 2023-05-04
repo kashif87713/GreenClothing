@@ -4,11 +4,13 @@ import styles from './contact.module.css'
 
 export default function Contact() {
     return (
-        <Box className={styles.contact} >
-            <Box className={styles.abouthead} >
+        <>
+        <Box className={styles.about} id='/aboutUs' >
                 <Container>
-                    <Typography className={styles.h1} ><b>Contact Us</b></Typography>
-                    <Typography><b>Home /  Contact Us</b></Typography>
+                    <Box className={styles.abouthead} >
+                        <Typography className={styles.h1} ><b>Contact Us</b></Typography>
+                        <Typography><b>Home /  Contact Us</b></Typography>
+                    </Box>
                 </Container>
             </Box>
             <br />
@@ -49,6 +51,6 @@ export default function Contact() {
                 </Container>
             </Grid>
             <br />
-        </Box>
+        </>
     )
 }

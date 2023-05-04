@@ -26,7 +26,7 @@ export default function index() {
                     <Grid container >
                         <Grid item xs={12} sm={12} md={6} lg={6} >
                             <br />
-                            <Typography className={styles.pilartext} >To operate with integrity and <br /> to service humanity.</Typography>
+                            <div className={styles.pilartext} >To operate with integrity and <br /> to service humanity.</div>
                         </Grid>
                         <Grid item xs={12} sm={12} md={6} lg={6} >
                             <br />

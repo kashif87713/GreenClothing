@@ -22,13 +22,14 @@ const Navbar = () => {
     <div className={color ? `${styles.header} ${styles.headerbg}` : `${styles.header}`}>
     <div className={styles.navbar} id='navbar'>
       <div className={styles.logo} id='logo'>
+      Green Clothing
       </div>
 
       <div className={styles.navcontainer}>
         <ul className={styles.topnavcontainer}>        
         </ul>
         <ul className={styles.bottomnavcontainer}>
-          <li>  <Link href='/home' className={styles.pink} >Home</Link></li>
+          <li>  <Link href='/Home' className={styles.pink} >Home</Link></li>
           <li>  <Link href='/about' className={styles.pink} >About Us</Link></li>
           <li>  <Link href='/Services' className={styles.pink} >Services</Link> </li> 
           <li>  <Link href='/Partners' className={styles.pink} >Our Partners</Link></li>

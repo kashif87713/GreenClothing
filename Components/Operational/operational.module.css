@@ -1,0 +1,42 @@
+.opthead{
+    font-size: .6rem;
+    font-weight: 600;
+    color: rgb(126, 122, 122);
+}
+.header{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: rgb(5, 19, 56);
+}
+.header2{
+    color: rgb(139, 136, 136);
+    text-align: justify;
+    font-size: .9rem;
+}
+.box{
+    height: 180px;
+    width: 250px;
+    background-color: whitesmoke;
+    padding: 1rem;
+    cursor: pointer;
+    margin: 10px;
+}
+.img{
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .6;
+    
+}
+.img:hover{
+    transform: scale(1.05);  
+    cursor: pointer; 
+    opacity: 5;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

@@ -5,6 +5,7 @@ import DoneIcon from '@mui/icons-material/Done';
 import Image from "next/image";
 import img from '../../Images/GIRL.jpg'
 import img1 from '../../Images/clo.png'
+import Operational from '../../Components/Operational/Operational'
 
 
 
@@ -98,6 +99,9 @@ export default function index() {
                     </Grid>
                 </Container>
             </Box>
+            <br/>
+            <br/>
+            <Operational/>
         </>
     )
 }

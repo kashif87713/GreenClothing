@@ -1,3 +1,8 @@
+.products{
+    background-color: whitesmoke;
+    padding: 1rem;
+}
+
 .btn{
     font-size: .7rem;
     height: 2.5rem;
@@ -30,6 +35,13 @@ height: 320px;
     margin: 3px;
     border-radius: 2px;
     font-weight: 600;
+    font-size: .7rem;
+}
+.tabhead:hover{
+    background-color: #071E57;
+    color: white;
+    border-radius: 5px;
+
 }
 
 .title{

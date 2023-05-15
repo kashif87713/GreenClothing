@@ -6,10 +6,12 @@ import img  from '../../Images/knitting.jpg';
 import img1 from '../../Images/dying.jpg'
 import img2 from '../../Images/fabric.jpg'
 import img3 from '../../Images/cutting.png'
-import img4 from '../../Images/sewing.jpg'
+import img4 from '../../Images/sew.jpeg'
 import img5 from '../../Images/finishing.jpg'
 import img6 from '../../Images/packing.jpg'
 import img7 from '../../Images/printing.jpg'
+import img8 from '../../Images/emb.jpeg'
+
 
 
 
@@ -60,6 +62,15 @@ export default function Facilities() {
                         <br/>
                       <center>
                         <Typography><b>Printing</b></Typography>
+                        </center>
+                    </Box>
+                </Grid>
+                <Grid item xs={12} sm={12} md={3} lg={3}>
+                    <Box className={styles.card} >
+                        <Image src={img8} className={styles.img} />
+                        <br/>
+                      <center>
+                        <Typography><b>Embriodary</b></Typography>
                         </center>
                     </Box>
                 </Grid>

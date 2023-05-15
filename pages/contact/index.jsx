@@ -6,11 +6,13 @@ export default function Contact() {
     return (
         <>
         <Box className={styles.about} id='/aboutUs' >
-                <Container>
-                    <Box className={styles.abouthead} >
-                        <Typography className={styles.h1} ><b>Contact Us</b></Typography>
-                        <Typography><b>Home /  Contact Us</b></Typography>
+        <Container>
+                    <Box className={styles.head} >
+                        <Typography variant='h3' ><b>Contact Us</b></Typography>
+                        <br />
+                        <Typography><b>Home / Contact Us</b> </Typography>
                     </Box>
+
                 </Container>
             </Box>
             <br />
@@ -32,7 +34,7 @@ export default function Contact() {
                                 </Grid>
                                 <Grid item xs={12} sm={12} md={4} lg={4} >
                                     <label className={styles.label}>Email:</label> <br />
-                                    <input type='text' className={styles.input} class='name'></input>
+                                    <input type='email' className={styles.input} class='name'></input>
                                 </Grid>
                                 <Grid item xs={12} sm={12} md={4} lg={4} >
 

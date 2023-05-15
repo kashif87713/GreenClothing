@@ -18,11 +18,11 @@
     background: rgba(0,0,0,0.7);
     
     }
-.abouthead{
-    padding-top: 12rem;
-    color: white;
-   position: absolute;
-}
+    .head{
+        position: absolute;
+        padding-top: 13rem;
+        color: white;
+    }
 .h1{
     font-size: 4rem;
 }

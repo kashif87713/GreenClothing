@@ -74,9 +74,10 @@ export default function BasicTabs() {
     router.push('/products')
   }
   return (
-      <Container>
+        <Box className={styles.products} >
+      <Container  >
           <Grid>
-              <Typography align='center' variant='h3' className={styles.title} ><b>Products</b></Typography>
+              <Typography align='center' variant='h5' className={styles.title} ><b>Our Products</b></Typography>
           </Grid>
           <br/>
     <Box  sx={{ width: '100%' }}>
@@ -85,6 +86,8 @@ export default function BasicTabs() {
           <Tab label= "All Products " className={styles.tabhead} {...a11yProps(0)} />
           <Tab label="Men" className={styles.tabhead} {...a11yProps(1)} />
           <Tab label="Women" className={styles.tabhead} {...a11yProps(2)} />
+          <Tab label="Kids" className={styles.tabhead} {...a11yProps(3)} />
+
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
@@ -180,11 +183,34 @@ export default function BasicTabs() {
          
         </Grid>
       </TabPanel> 
+
+      <TabPanel value={value} index={3}>
+      <Grid container spacing={3}>
+          <Grid item xs={12} sm={6} md={6} lg={4}>
+            <Card className={styles.card} >
+              <Image src={img4}  className={styles.img} />
+            </Card>
+          </Grid>
+          <Grid item xs={12} sm={6} md={6} lg={4}>
+            <Card className={styles.card}>
+              <Image src={img7}  className={styles.img}/>
+            </Card>
+          </Grid>
+          <Grid item xs={12} sm={6} md={6} lg={4} >
+            <Card className={styles.card}>
+              <Image src={img10}  className={styles.img}/>
+            </Card>
+          </Grid>
+         
+        </Grid>
+      </TabPanel> 
+      
       
 
      
     </Box>
     <br/>
     </Container>
+    </Box>
   );
 }

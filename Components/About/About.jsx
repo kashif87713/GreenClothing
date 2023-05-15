@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Typography, Grid, Container } from "@mui/material";
 import styles from './about.module.css';
 import Image from "next/image";
-import img from '../../Images/finshing.jpeg'
+import img from '../../Images/16.jpeg'
 import DoneIcon from '@mui/icons-material/Done';
 
 

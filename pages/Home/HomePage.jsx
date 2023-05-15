@@ -11,7 +11,7 @@ export default function HomePage() {
         <Box>
             <Box className={styles.home} id='/home' >
                 <center>
-                    <Typography variant='h3' className={styles.header} ><b>Welcome to Green clothing</b> </Typography>
+                    {/* <Typography variant='h3' className={styles.header} ><b>Welcome to Green clothing</b> </Typography> */}
                 </center>
             </Box>
             <About />

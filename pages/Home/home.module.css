@@ -1,9 +1,9 @@
 .home{
     background: url('../../Images/bg4.jpg');
-    height: 90vh;
+    height: 70vh;
     width: 100%;
     background-size: cover;
-    background-position: top;
+    background-position: center;
     position: relative;
 }
 .home::before{

@@ -1,8 +1,6 @@
 .about{
-    /* height: 100vh; */
-    background-color: #071E57;
-        background: url('../../Images/bg.jpg');
-        height: 80vh;
+        background: url('../../Images/bg.jpeg');
+        height: 65vh;
         width: 100%;
         background-size: cover;
         background-position: center;

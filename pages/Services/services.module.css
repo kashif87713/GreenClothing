@@ -1,9 +1,9 @@
 .services{
-    background: url('../../Images/bg\ \(2\).jpeg') ;
+    background: url('../../Images/16.jpeg') ;
     height: 60vh;
     width: 100%;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     position: relative;
 }
 .services::before{

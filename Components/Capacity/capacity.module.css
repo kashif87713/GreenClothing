@@ -1,0 +1,26 @@
+.capacity{
+    height: 25vh;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 1rem;
+}
+.details{
+    display: flex;
+    align-items: center;
+}
+.qty{
+    color: rgb(122, 120, 120);
+    font-size: 1.6rem;
+    margin: 0 .8rem;
+}
+.text{
+    color: rgb(122, 120, 120);
+  
+}
+.box{
+    width: 250px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+}

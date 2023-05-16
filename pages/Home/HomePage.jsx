@@ -7,6 +7,7 @@ import Facilities from '../../Components/Facilities/Facilities'
 import Certificate from '../../Components/Certification/Certificate'
 import Stand from '../../Components/Standard/Stand'
 import Capacity from '../../Components/Capacity/Capacity'
+import Slider from '../../Components/Slider/Slider'
 
 export default function HomePage() {
     return (
@@ -32,6 +33,9 @@ export default function HomePage() {
             <br/>
             <br/>
             <Certificate/>
+            <br/>
+            <br/>
+            <Slider/>
         </Box>
     )
 }

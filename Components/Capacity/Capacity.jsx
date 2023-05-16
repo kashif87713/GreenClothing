@@ -44,7 +44,7 @@ export default function Capacity() {
                         <Box className={styles.details} >
                             <Image src={img3} className={styles.img} />
                             
-                            <Typography className={styles.qty} ><b>300</b> </Typography>
+                            <Typography className={styles.qty} ><b>600</b> </Typography>
                         </Box>
                         <br/>
                         <Typography className={styles.text}><b>Sewing Machines</b></Typography>

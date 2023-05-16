@@ -29,7 +29,7 @@ const Navbar = () => {
         <ul className={styles.topnavcontainer}>        
         </ul>
         <ul className={styles.bottomnavcontainer}>
-          <li>  <Link href='/Home' className={styles.pink} >Home</Link></li>
+          <li>  <Link href='/' className={styles.pink} >Home</Link></li>
           <li>  <Link href='/about' className={styles.pink} >About Us</Link></li>
           <li>  <Link href='/Services' className={styles.pink} >Services</Link> </li> 
           <li>  <Link href='/Partners' className={styles.pink} >Our Partners</Link></li>

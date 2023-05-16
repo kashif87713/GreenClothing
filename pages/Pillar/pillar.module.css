@@ -1,9 +1,9 @@
 .pillar{
-    background: url('../../Images/bg\ \(2\).jpeg') ;
+    background: url('../../Images/pillar.jpg') ;
     height: 60vh;
     width: 100%;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     position: relative;
     font-family: sofia-pro,sans-serif;
 

@@ -5,7 +5,7 @@ import { Typography, Container, Grid } from '@mui/material';
 import Mission from '../../Components/Mission/Mission';
 import Vision from '../../Components/Vision/Vision';
 import Target from '../../Components/Target/Target';
-import img from '../../Images/packing.jpeg'
+import img from '../../Images/machne.jpeg'
 import Image from "next/image";
 
 export default function About() {

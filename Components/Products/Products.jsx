@@ -16,6 +16,14 @@ import img7 from '../../Images/7.jpg'
 import img8 from '../../Images/8.jpg'
 import img9 from '../../Images/9.jpg'
 import img10 from '../../Images/10.jpg'
+import img11 from '../../Images/men.jpeg'
+import img12 from '../../Images/men1.jpeg'
+import img13 from '../../Images/men2.jpeg'
+import img14 from '../../Images/wo.jpeg'
+import img15 from '../../Images/wo1.jpeg'
+import img16 from '../../Images/wo2.jpeg'
+
+
 
 
 import {
@@ -156,8 +164,22 @@ export default function BasicTabs() {
           <Grid item xs={12} sm={6} md={6} lg={4} >
             <Card className={styles.card}>
               <Image src={img8}  className={styles.img}/>
-            </Card>
-           
+            </Card> 
+          </Grid>
+          <Grid item xs={12} sm={6} md={6} lg={4} >
+            <Card className={styles.card}>
+              <Image src={img11}  className={styles.img}/>
+            </Card> 
+          </Grid>
+          <Grid item xs={12} sm={6} md={6} lg={4} >
+            <Card className={styles.card}>
+              <Image src={img12}  className={styles.img}/>
+            </Card> 
+          </Grid>
+          <Grid item xs={12} sm={6} md={6} lg={4} >
+            <Card className={styles.card}>
+              <Image src={img13}  className={styles.img}/>
+            </Card> 
           </Grid>
           
         </Grid>
@@ -179,6 +201,21 @@ export default function BasicTabs() {
             <Card className={styles.card}>
               <Image src={img9}  className={styles.img}/>
             </Card>
+          </Grid>
+          <Grid item xs={12} sm={6} md={6} lg={4} >
+            <Card className={styles.card}>
+              <Image src={img14}  className={styles.img}/>
+            </Card> 
+          </Grid>
+          <Grid item xs={12} sm={6} md={6} lg={4} >
+            <Card className={styles.card}>
+              <Image src={img15}  className={styles.img}/>
+            </Card> 
+          </Grid>
+          <Grid item xs={12} sm={6} md={6} lg={4} >
+            <Card className={styles.card}>
+              <Image src={img16}  className={styles.img}/>
+            </Card> 
           </Grid>
          
         </Grid>

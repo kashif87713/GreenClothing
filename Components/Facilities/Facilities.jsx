@@ -9,7 +9,7 @@ import img3 from '../../Images/pack.jpeg'
 import img4 from '../../Images/machne.jpeg'
 import img5 from '../../Images/fin.jpeg'
 import img6 from '../../Images/packing.jpg'
-import img7 from '../../Images/printing.jpg'
+import img7 from '../../Images/print.jpeg'
 import img8 from '../../Images/emb.jpeg'
 import img9 from '../../Images/finishing.jpg'
 

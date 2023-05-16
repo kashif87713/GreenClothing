@@ -1,5 +1,5 @@
 .standard{
-    height: 35vh;
+    height: auto;
     width: 100%;
     background-color: whitesmoke;
     padding: 1rem;
@@ -15,4 +15,11 @@
     font-size: 1rem;
     font-weight: 600;
     color: rgb(112, 109, 109);
+}
+.Box{
+    margin: 1rem;
+}
+
+@media screen and (min-width: 300px ) and (max-width: 650px ){
+
 }

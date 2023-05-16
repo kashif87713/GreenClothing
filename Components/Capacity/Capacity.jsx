@@ -17,7 +17,7 @@ export default function Capacity() {
                         <Box className={styles.details} >
                             <Image src={img} className={styles.img} />
                             
-                            <Typography className={styles.qty} ><b>100000</b> </Typography>
+                            <Typography className={styles.qty} ><b>1000000</b> </Typography>
                         </Box>
                         <br/>
                         <Typography className={styles.text}><b>Garments Per Month</b></Typography>
@@ -26,7 +26,7 @@ export default function Capacity() {
                         <Box className={styles.details} >
                             <Image src={img1} className={styles.img} />
                             
-                            <Typography className={styles.qty} ><b>500</b> </Typography>
+                            <Typography className={styles.qty} ><b>2000</b> </Typography>
                         </Box>
                         <br/>
                         <Typography className={styles.text}><b>Skilled Workers</b></Typography>
@@ -35,7 +35,7 @@ export default function Capacity() {
                         <Box className={styles.details} >
                             <Image src={img2} className={styles.img} />
                             
-                            <Typography className={styles.qty} ><b>1500</b> </Typography>
+                            <Typography className={styles.qty} ><b>3000</b> </Typography>
                         </Box>
                         <br/>
                         <Typography className={styles.text}><b>Fq.ft.Factory Area</b></Typography>
@@ -44,7 +44,7 @@ export default function Capacity() {
                         <Box className={styles.details} >
                             <Image src={img3} className={styles.img} />
                             
-                            <Typography className={styles.qty} ><b>600</b> </Typography>
+                            <Typography className={styles.qty} ><b>1200</b> </Typography>
                         </Box>
                         <br/>
                         <Typography className={styles.text}><b>Sewing Machines</b></Typography>

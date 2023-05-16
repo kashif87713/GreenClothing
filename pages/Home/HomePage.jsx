@@ -32,8 +32,7 @@ export default function HomePage() {
             <br/>
             <br/>
             <Certificate/>
-            <br/>
-            <br/>
+            
         </Box>
     )
 }

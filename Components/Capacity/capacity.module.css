@@ -1,5 +1,5 @@
 .capacity{
-    height: 25vh;
+    height: auto;
     width: 100%;
     background-color: whitesmoke;
     padding: 1rem;
@@ -19,6 +19,7 @@
 }
 .box{
     width: 250px;
+    margin: 1rem;
 }
 .boxes{
     display: flex;

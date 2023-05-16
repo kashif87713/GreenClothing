@@ -26,7 +26,7 @@ export default function Capacity() {
                         <Box className={styles.details} >
                             <Image src={img1} className={styles.img} />
                             
-                            <Typography className={styles.qty} ><b>2000</b> </Typography>
+                            <div className={styles.qty} ><b>2000</b> </div>
                         </Box>
                         <br/>
                         <Typography className={styles.text}><b>Skilled Workers</b></Typography>
@@ -35,7 +35,7 @@ export default function Capacity() {
                         <Box className={styles.details} >
                             <Image src={img2} className={styles.img} />
                             
-                            <Typography className={styles.qty} ><b>80000</b> </Typography>
+                            <div className={styles.qty} ><b>80000</b> </div>
                         </Box>
                         <br/>
                         <Typography className={styles.text}><b>Fq.ft.Factory Area</b></Typography>

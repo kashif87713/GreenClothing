@@ -10,15 +10,18 @@ import styles from './products.module.css'
 import img from '../../Images/2.jpg'
 import img3 from '../../Images/3.jpg'
 import img4 from '../../Images/4.jpg'
-import img5 from '../../Images/5.jpg'
+import img5 from '../../Images/h4.jpeg'
 import img6 from '../../Images/6.jpg'
 import img7 from '../../Images/7.jpg'
-import img8 from '../../Images/8.jpg'
+import img8 from '../../Images/h5.jpeg'
 import img9 from '../../Images/9.jpg'
 import img10 from '../../Images/10.jpg'
 import img11 from '../../Images/men.jpeg'
 import img12 from '../../Images/men1.jpeg'
 import img13 from '../../Images/men2.jpeg'
+import img17 from '../../Images/h1.jpeg'
+import img18 from '../../Images/h2.jpeg'
+import img19 from '../../Images/h3.jpeg'
 import img14 from '../../Images/wo.jpeg'
 import img15 from '../../Images/wo1.jpeg'
 import img16 from '../../Images/wo2.jpeg'
@@ -164,6 +167,21 @@ export default function BasicTabs() {
           <Grid item xs={12} sm={6} md={6} lg={4} >
             <Card className={styles.card}>
               <Image src={img8}  className={styles.img}/>
+            </Card> 
+          </Grid>
+          <Grid item xs={12} sm={6} md={6} lg={4} >
+            <Card className={styles.card}>
+              <Image src={img17}  className={styles.img}/>
+            </Card> 
+          </Grid>
+          <Grid item xs={12} sm={6} md={6} lg={4} >
+            <Card className={styles.card}>
+              <Image src={img18}  className={styles.img}/>
+            </Card> 
+          </Grid>
+          <Grid item xs={12} sm={6} md={6} lg={4} >
+            <Card className={styles.card}>
+              <Image src={img19}  className={styles.img}/>
             </Card> 
           </Grid>
           <Grid item xs={12} sm={6} md={6} lg={4} >

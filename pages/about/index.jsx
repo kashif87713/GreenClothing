@@ -12,11 +12,13 @@ export default function About() {
     return (
         <>
             <Box className={styles.about} id='/aboutUs' >
-                <Container>
-                    <Box className={styles.abouthead} >
-                        <Typography className={styles.h1} ><b>About Us</b></Typography>
-                        <Typography><b>Home /  About Us</b></Typography>
+            <Container>
+                    <Box className={styles.head} >
+                        <Typography variant='h3' ><b>About Us</b></Typography>
+                        <br />
+                        <Typography><b>Home / About Us</b> </Typography>
                     </Box>
+
                 </Container>
             </Box>
             <Container>

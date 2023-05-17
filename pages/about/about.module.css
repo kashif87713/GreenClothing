@@ -16,11 +16,11 @@
     background: rgba(71, 70, 70, 0.7);
     
     }
-.abouthead{
+    .head{
+        position: absolute;
     padding-top: 13rem;
-    color: white;
-   position: absolute;
-}
+        color: white;
+    }
 .h1{
     font-size: 4rem;
 }

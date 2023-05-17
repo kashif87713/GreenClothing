@@ -27,7 +27,7 @@ export default function Facilities() {
         slidesToScroll: 1,
         initialSlide: 0,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 2000,
         pauseOnHover: true,
         responsive: [
             {
@@ -60,9 +60,10 @@ export default function Facilities() {
     return (
         <>
             <Box>
+                <Container>
                 <Grid container >
                     <Grid item xs={12} sm={12} md={12} lg={12} >
-                        <Typography className={styles.faciltyhead}><b>Facilities we provide</b> </Typography>
+                        <div className={styles.faciltyhead}><b>Facilities we provide</b> </div>
                     </Grid>
                 </Grid>
                 <br />
@@ -141,8 +142,8 @@ export default function Facilities() {
                         </center>
                     </Box>
 
-
                 </Slider>
+                </Container>
             </Box>
         </>
     )

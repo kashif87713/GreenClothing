@@ -26,9 +26,6 @@ import img14 from '../../Images/wo.jpeg'
 import img15 from '../../Images/wo1.jpeg'
 import img16 from '../../Images/wo2.jpeg'
 
-
-
-
 import {
 
     Card,

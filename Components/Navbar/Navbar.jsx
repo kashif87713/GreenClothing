@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Image from "next/image";
 import styles from './navbar.module.css'
 import Link from 'next/link';
-// import logo from '../../images/logo.png'
+import logo from '../../images/logo.png'
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -22,7 +22,7 @@ const Navbar = () => {
     <div className={color ? `${styles.header} ${styles.headerbg}` : `${styles.header}`}>
     <div className={styles.navbar} id='navbar'>
       <div className={styles.logo} id='logo'>
-      Green Clothing
+<Image src={logo} className={styles.img}  />
       </div>
 
       <div className={styles.navcontainer}>

@@ -54,11 +54,12 @@
         margin-top: .6rem;
         font-size: 1.3rem;
         font-family: sofia-pro,sans-serif;
+        
     }
     .img{
-      width: 100px;
-      height: 70px;
-      padding-top: 3px;
+      width: 150px;
+      height: 100px;
+      padding-top: 4px;
     }
     .icon{
       margin-top: 1.4rem;;

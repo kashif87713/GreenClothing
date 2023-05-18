@@ -11,6 +11,8 @@
     color: white;
     font-size: 0.9rem;
     font-weight: 100;
+    font-family: sofia-pro,sans-serif;
+
   }
   .about:hover{
     color: rgb(29, 147, 211);

@@ -17,7 +17,7 @@ export default function Capacity() {
                         <Box className={styles.details} >
                             <Image src={img} className={styles.img} />
                             
-                            <div className={styles.qty} ><b>1 Million</b> </div>
+                            <div className={styles.qty} ><b>04 lac</b> </div>
                         </Box>
                         <br/>
                         <Typography className={styles.text}><b>Garments Per Month</b></Typography>
@@ -26,7 +26,7 @@ export default function Capacity() {
                         <Box className={styles.details} >
                             <Image src={img1} className={styles.img} />
                             
-                            <div className={styles.qty} ><b>2000</b> </div>
+                            <div className={styles.qty} ><b>1000</b> </div>
                         </Box>
                         <br/>
                         <Typography className={styles.text}><b>Skilled Workers</b></Typography>
@@ -35,7 +35,7 @@ export default function Capacity() {
                         <Box className={styles.details} >
                             <Image src={img2} className={styles.img} />
                             
-                            <div className={styles.qty} ><b>80000</b> </div>
+                            <div className={styles.qty} ><b>40,000</b> </div>
                         </Box>
                         <br/>
                         <Typography className={styles.text}><b>Fq.ft.Factory Area</b></Typography>
@@ -44,7 +44,7 @@ export default function Capacity() {
                         <Box className={styles.details} >
                             <Image src={img3} className={styles.img} />
                             
-                            <div className={styles.qty} ><b>1200</b> </div>
+                            <div className={styles.qty} ><b>600</b> </div>
                         </Box>
                         <br/>
                         <Typography className={styles.text}><b>Sewing Machines</b></Typography>

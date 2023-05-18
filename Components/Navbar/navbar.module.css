@@ -51,8 +51,9 @@
     
     .logo{
         width: 25%;
-        margin-top: .7rem;
+        margin-top: .6rem;
         font-size: 1.3rem;
+        font-family: sofia-pro,sans-serif;
     }
     .img{
       width: 100px;
@@ -73,7 +74,7 @@
       display: block;
       text-decoration: none;
       color: whitesmoke;
-      font-family: 'Roboto', sans-serif;
+      font-family: sofia-pro,sans-serif;
       padding: 10px 11px 0 0;
       position: relative;
       z-index: 1;

@@ -22,7 +22,7 @@ export default function index() {
             <br />
             <Box>
                 <Container>
-                    <Typography><b>Business Pillars</b> </Typography>
+                    <Typography className={styles.pilarhead}><b>Business Pillars</b> </Typography>
                     <Grid container >
                         <Grid item xs={12} sm={12} md={6} lg={6} >
                             <br />

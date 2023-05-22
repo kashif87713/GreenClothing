@@ -26,7 +26,7 @@ export default function About() {
                                 <Box className={styles.text1} >
                                 <Box className={styles.icon} ><DoneIcon/></Box>
                                 <Box className={styles.textdetail}>
-                                    <Typography >  1 million unit P/M capacity </Typography>
+                                    <Typography >  04 Lac unit P/M capacity </Typography>
                                 </Box>
                                 </Box>
                                 <br/>

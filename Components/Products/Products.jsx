@@ -133,7 +133,7 @@ export default function BasicTabs() {
           </Grid>
           <Grid item xs={12} sm={6} md={6} lg={4} >
             <Card className={styles.card}>
-              <Image src={img8}  className={styles.img} />
+              <Image src={img12}  className={styles.img} />
             </Card>
           </Grid>
           <Grid item xs={12} sm={6} md={6} lg={4} >

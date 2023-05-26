@@ -10,7 +10,7 @@ export default function index() {
             <Box className={styles.pillar} >
                 <Container>
                     <Box className={styles.head} >
-                        <Typography variant='h3' ><b>Business Pillars</b></Typography>
+                        <Typography variant='h4' ><b>Business Pillars</b></Typography>
                         <br />
                         <Typography><b>Home / Our Partners</b> </Typography>
                     </Box>

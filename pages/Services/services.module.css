@@ -56,3 +56,9 @@ background: rgba(0,0,0,0.7);
     height: 90vh;
     border-radius: 5px;
 }
+
+@media screen and (max-width:900px ){
+    .services{
+        height: 50vh;
+    }
+    }

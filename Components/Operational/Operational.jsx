@@ -18,9 +18,10 @@ export default function Operational() {
                 <Typography className={styles.opthead} ><b>OPERATIONAL RELIABILITY</b> </Typography>
                 <Grid container >
                     <Grid item xs={12} sm={12} md={6} lg={6} >
-                        <Typography className={styles.header} >Providing stability to employers, stakeholders and customers.</Typography>
+                        <Typography className={styles.header} >Providing stability to employers,stakeholders and customers.</Typography>
                     </Grid>
                     <Grid item xs={12} sm={12} md={6} lg={6} >
+                    
                         <Typography className={styles.header2}  >We invest in and capitalise on new technology to drive our manufacturing process through the i-team PMS system which gives us complete visibility and control of our production through direct data collection and analysis.
 
 </Typography>

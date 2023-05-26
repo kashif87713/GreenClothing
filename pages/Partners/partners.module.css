@@ -49,3 +49,9 @@ padding-top: 13rem;
     flex-wrap: wrap;
     
 }
+
+@media screen and (max-width:900px ){
+    .partner{
+        height: 50vh;
+    }
+    }

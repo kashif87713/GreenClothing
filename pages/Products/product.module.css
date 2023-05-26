@@ -22,3 +22,8 @@ background: rgba(0,0,0,0.7);
     padding-top: 13rem;
     color: white;
 }
+@media screen and (max-width:900px ){
+    .pillar{
+        height: 50vh;
+    }
+    }

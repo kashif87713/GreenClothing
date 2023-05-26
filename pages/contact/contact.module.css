@@ -94,3 +94,9 @@
     border-bottom: 5px solid #071E57;
     color: #071E57;
 }
+
+@media screen and (max-width:900px ){
+    .about{
+        height: 45vh;
+    }
+    }

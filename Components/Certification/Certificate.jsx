@@ -16,7 +16,7 @@ export default function Certificate() {
     return (
         <Box className={styles.certif} >
             <Container>
-                <Typography><b>THE ENVIRONMENT</b> </Typography>
+                <Typography className={styles.text}><b>THE ENVIRONMENT</b> </Typography>
                 <br />
                 <Grid container >
                     <Grid item xs={12} sm={12} md={6} lg={6}>

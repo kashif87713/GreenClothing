@@ -4,13 +4,19 @@
     font-family: sofia-pro,sans-serif;
 
 }
+.text{
+    color: rgb(113, 114, 113);
+   
+}
 .head{
-    font-size: 2.5rem;
-    color:rgb(3, 11, 31);
+    font-size: 2rem;
+    color: rgb(113, 114, 113);
+    padding: 0 1.5rem 0 0;
+
 }
 .head2{
     color: rgb(113, 114, 113);
-    padding:0 1rem;
+    padding:0 2rem;
 }
 .box{
     height: 130px;
@@ -33,4 +39,10 @@
  .img:hover{
         box-shadow: 0px 0px 15px #cccee0;
         transform: scale(1.05);   
+}
+
+@media screen and (max-width: 850px){
+.head2{
+    padding: 1rem 1rem 0 0;
+}
 }

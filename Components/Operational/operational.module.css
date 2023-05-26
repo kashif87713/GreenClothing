@@ -1,17 +1,18 @@
 .opthead{
-    font-size: .6rem;
-    font-weight: 600;
+    font-size: 1.8rem;
+    font-weight: 700;
     color: rgb(126, 122, 122);
 }
 .header{
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: rgb(5, 19, 56);
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(126, 122, 122);
 }
 .header2{
-    color: rgb(139, 136, 136);
+    color: rgb(126, 122, 122);
     text-align: justify;
     font-size: .9rem;
+    padding: .5rem 1rem;
 }
 .box{
     height: 180px;
@@ -39,4 +40,15 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width:700px ){
+.header2{
+    padding:5px 13px 0 0;
+}
+.opthead{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: rgb(126, 122, 122);
+}
 }

@@ -31,10 +31,10 @@ export default function About() {
                                 </Box>
                                 <br/>
                                 <Box className={styles.text1} >
-                                <Box className={styles.icon} ><DoneIcon/></Box>
+                                    <Box className={styles.icon} ><DoneIcon/></Box>
                                 <Box className={styles.textdetail}>
-                                    <Typography>Achieved Carbon Neutral Factory 2021</Typography>
-                                </Box>
+                                 <Typography> 500 Samples P/M Capacity </Typography>
+                                </Box> 
                                 </Box>
                                 <br/>
                             </Grid>
@@ -54,12 +54,7 @@ export default function About() {
                                 </Box> 
                                 </Box>
                                 <br/>
-                                <Box className={styles.text1} >
-                                    <Box className={styles.icon} ><DoneIcon/></Box>
-                                <Box className={styles.textdetail}>
-                                 <Typography> 200 Samples P/M Capacity </Typography>
-                                </Box> 
-                                </Box>
+                                
                             </Grid>
                         </Grid>
 

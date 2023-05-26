@@ -29,7 +29,7 @@ export default function Capacity() {
                             <div className={styles.qty} ><b>700</b> </div>
                         </Box>
                         <br/>
-                        <Typography className={styles.text}><b>Skilled Workers</b></Typography>
+                        <Typography className={styles.text}><b>Sewing Machines</b></Typography>
                     </Box>
                     <Box className={styles.box} >
                         <Box className={styles.details} >
@@ -47,7 +47,7 @@ export default function Capacity() {
                             <div className={styles.qty} ><b>500</b> </div>
                         </Box>
                         <br/>
-                        <Typography className={styles.text}><b>Sewing Machines</b></Typography>
+                        <Typography className={styles.text}><b>Skilled Workers</b></Typography>
                     </Box>
                 </Box>
             </Container>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Typography, Grid, Container } from "@mui/material";
 import styles from './contact.module.css'
+import Head from 'next/head';
 
 export default function Contact() {
     return (

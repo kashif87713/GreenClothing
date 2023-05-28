@@ -9,11 +9,11 @@ export default function index() {
     return (
         <div>
             <Head>
-        <title>Green Clothing Garments</title>
-        <meta name="greenclothing" content="green clothing saqlain" />
-        <meta name="factory" content="gajju matta" />
-        <link rel="icon" href="/logoonly.png" />
-      </Head>
+                <title>Green Clothing Garments</title>
+                <meta name="greenclothing" content="green clothing saqlain" />
+                <meta name="factory" content="gajju matta" />
+                <link rel="icon" href="/logoonly.png" />
+            </Head>
             <Box className={styles.pillar} >
                 <Container>
                     <Box className={styles.head} >
@@ -24,7 +24,7 @@ export default function index() {
 
                 </Container>
             </Box>
-            <Products/>
+            <Products />
         </div>
     )
 }

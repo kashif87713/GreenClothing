@@ -13,12 +13,12 @@ import Head from 'next/head';
 export default function index() {
     return (
         <>
-        <Head>
-        <title>Green Clothing Services</title>
-        <meta name="greenclothing services" content="green clothing services" />
-        <meta name="factory" content="gajju matta" />
-        <link rel="icon" href="/logoonly.png" />
-      </Head>
+            <Head>
+                <title>Green Clothing Services</title>
+                <meta name="greenclothing services" content="green clothing services" />
+                <meta name="factory" content="gajju matta" />
+                <link rel="icon" href="/logoonly.png" />
+            </Head>
             <Box className={styles.services} >
                 <Container>
                     <Box className={styles.head} >
@@ -90,7 +90,7 @@ export default function index() {
                                     <Typography>Our design teams are based in New York,London, Barcelona & Melbourne providing our customers with design and market intelligence from around the globe..</Typography>
                                 </Box>
                             </Box>
-                            <br/>
+                            <br />
                             <Box>
                                 <Image src={img1} />
                             </Box>
@@ -106,9 +106,9 @@ export default function index() {
                     </Grid>
                 </Container>
             </Box>
-            <br/>
-            <br/>
-            <Operational/>
+            <br />
+            <br />
+            <Operational />
         </>
     )
 }

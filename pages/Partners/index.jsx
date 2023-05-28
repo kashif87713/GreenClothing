@@ -13,6 +13,7 @@ import img7 from '../../Images/77.png'
 import img8 from '../../Images/88.png'
 import img9 from '../../Images/99.png'
 import img10 from '../../Images/00.png'
+import Head from 'next/head';
 
 
 export default function partners() {

@@ -2,17 +2,18 @@ import React from 'react';
 import { Box, Typography, Container, Grid } from '@mui/material';
 import Image from "next/image";
 import styles from './pillar.module.css';
+import Head from 'next/head';
 
 
 export default function index() {
     return (
         <>
-         <Head>
-        <title>Green Clothing Business</title>
-        <meta name="green clothing business" content="green clothing business" />
-        <meta name="factory" content="gajju matta" />
-        <link rel="icon" href="/logoonly.png" />
-      </Head>
+            <Head>
+                <title>Green Clothing Business</title>
+                <meta name="green clothing business" content="green clothing business" />
+                <meta name="factory" content="gajju matta" />
+                <link rel="icon" href="/logoonly.png" />
+            </Head>
             <Box className={styles.pillar} >
                 <Container>
                     <Box className={styles.head} >
@@ -32,7 +33,7 @@ export default function index() {
                     <Grid container >
                         <Grid item xs={12} sm={12} md={6} lg={6} >
                             <br />
-                            <div className={styles.pilartext} >To operate with integrity and  to  service <br/> humanity.</div>
+                            <div className={styles.pilartext} >To operate with integrity and  to  service <br /> humanity.</div>
                         </Grid>
                         <Grid item xs={12} sm={12} md={6} lg={6} >
                             <br />
@@ -108,8 +109,8 @@ export default function index() {
                             </Box>
                         </Grid>
                     </Grid>
-                    <br/>
-                    <br/>
+                    <br />
+                    <br />
                 </Container>
             </Box>
         </>

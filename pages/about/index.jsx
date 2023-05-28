@@ -38,12 +38,14 @@ export default function About() {
     <br />
                                 <br />
                                 <ul>
+                                <div className={styles.details}>
                                     <li>We produce knitwear Tops and bottoms for man, women and kids . </li>
                                     <li>Working to establish join life Environmental Sustainability . </li>
                                     <li>Our sampling department produce more than 500 new customized styles per month which we offer to our value customers . </li>
                                     <li>Research and development department produce more than 200 fabrics every month . </li>
                                     <li>Team consists of both local and international professionals . </li>
                                     <li>We provide end to end supply chain solution to the fqashion industry . </li>
+                                    </div>
                                 </ul>
                             </Typography>
                         </Grid>

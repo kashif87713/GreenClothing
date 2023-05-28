@@ -37,7 +37,9 @@
     margin: auto;
     border-radius: 5px;
 }
-
+.details{
+    padding: 0 0 0 2rem;
+}
 @media screen and (max-width:900px ){
 .about{
     height: 47vh;

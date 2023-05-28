@@ -11,6 +11,12 @@ import Image from "next/image";
 export default function About() {
     return (
         <>
+                 <Head>
+        <title>About Green Clothing</title>
+        <meta name="green clothing about" content="green clothing about" />
+        <meta name="factory" content="gajju matta" />
+        <link rel="icon" href="/logoonly.png" />
+      </Head>
             <Box className={styles.about} id='/aboutUs' >
             <Container>
                     <Box className={styles.head} >

@@ -6,12 +6,19 @@ import Image from "next/image";
 import img from '../../Images/GIRL.jpg'
 import img1 from '../../Images/clo.png'
 import Operational from '../../Components/Operational/Operational'
+import Head from 'next/head';
 
 
 
 export default function index() {
     return (
         <>
+        <Head>
+        <title>Green Clothing Services</title>
+        <meta name="greenclothing services" content="green clothing services" />
+        <meta name="factory" content="gajju matta" />
+        <link rel="icon" href="/logoonly.png" />
+      </Head>
             <Box className={styles.services} >
                 <Container>
                     <Box className={styles.head} >

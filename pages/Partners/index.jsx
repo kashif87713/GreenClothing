@@ -18,6 +18,12 @@ import img10 from '../../Images/00.png'
 export default function partners() {
     return (
         <>
+            <Head>
+                <title>Green Clothing Partners</title>
+                <meta name="green clothing partners" content="green clothing partners" />
+                <meta name="factory" content="gajju matta" />
+                <link rel="icon" href="/logoonly.png" />
+            </Head>
             <Box className={styles.partner} >
                 <Container>
                     <Box className={styles.head} >
@@ -71,11 +77,11 @@ export default function partners() {
                         <Box className={styles.box} >
                             <Image src={img10} className={styles.img} />
                         </Box>
-                    
+
                     </Box>
                 </Container>
-                <br/>
-                <br/>
+                <br />
+                <br />
             </Box>
         </>
     )

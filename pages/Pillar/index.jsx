@@ -7,6 +7,12 @@ import styles from './pillar.module.css';
 export default function index() {
     return (
         <>
+         <Head>
+        <title>Green Clothing Business</title>
+        <meta name="green clothing business" content="green clothing business" />
+        <meta name="factory" content="gajju matta" />
+        <link rel="icon" href="/logoonly.png" />
+      </Head>
             <Box className={styles.pillar} >
                 <Container>
                     <Box className={styles.head} >

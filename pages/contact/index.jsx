@@ -5,8 +5,14 @@ import styles from './contact.module.css'
 export default function Contact() {
     return (
         <>
-        <Box className={styles.about} id='/aboutUs' >
-        <Container>
+            <Head>
+                <title>Green Clothing Contact</title>
+                <meta name="green clothing contact" content="green clothing contact" />
+                <meta name="factory" content="gajju matta" />
+                <link rel="icon" href="/logoonly.png" />
+            </Head>
+            <Box className={styles.about} id='/aboutUs' >
+                <Container>
                     <Box className={styles.head} >
                         <Typography variant='h3' ><b>Contact Us</b></Typography>
                         <br />

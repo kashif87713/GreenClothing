@@ -39,7 +39,7 @@
 .form{
     padding-top: 5rem;
 }
-.input{
+.inp{
     height: 2.5rem;
     width: 97%;
     padding: .5rem;
@@ -57,7 +57,7 @@
     font-size: .8rem;
 
 }
-.input:hover{
+.inp:hover{
     background-color: #E9F5FC;
 }
 .textarea{

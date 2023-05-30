@@ -37,16 +37,16 @@ export default function Contact() {
                             <Grid container className={styles.form} >
                                 <Grid item xs={12} sm={12} md={4} lg={4} >
                                     <label className={styles.label} >Name:</label> <br />
-                                    <input type='text' className={styles.input} class='name'></input>
+                                    <input type='text' className={styles.inp} ></input>
                                 </Grid>
                                 <Grid item xs={12} sm={12} md={4} lg={4} >
                                     <label className={styles.label}>Email:</label> <br />
-                                    <input type='email' className={styles.input} class='name'></input>
+                                    <input type='email' className={styles.inp} ></input>
                                 </Grid>
                                 <Grid item xs={12} sm={12} md={4} lg={4} >
 
                                     <label className={styles.label}>Phone Number:</label> <br />
-                                    <input type='number' className={styles.input} class='name' ></input>
+                                    <input type='number' className={styles.inp} ></input>
                                 </Grid>
                                 <Grid item xs={12} sm={12} md={12} lg={12} >
                                     <br />

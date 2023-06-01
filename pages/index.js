@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Green Clothing</title>
+        <title>Green Clothing Pvt Ltd</title>
         <meta name="greenclothing" content="green clothing saqlain" />
         <meta name="factory" content="gajju matta" />
         <link rel="icon" href="/logoonly.png" />

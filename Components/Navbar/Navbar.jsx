@@ -22,7 +22,7 @@ const Navbar = () => {
     <div className={color ? `${styles.header} ${styles.headerbg}` : `${styles.header}`}>
     <div className={styles.navbar} id='navbar'>
       <div className={styles.logo} id='logo'>
-        <p style={{fontSize: '2rem', fontWeight: '700'}}>Green Clothing</p>
+        <p style={{fontSize: '1.5rem', fontWeight: '700'}}>Green Clothing</p>
 {/* <Image src={logo} className={styles.img}  /> */}
       </div>
 

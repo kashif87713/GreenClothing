@@ -43,15 +43,15 @@ export default function Footer() {
               <p variant='h4'  className={styles.footerheader}  >Contact Us</p>
               <Box className={styles.boxIcon} >
              <div className={styles.ico}  ><PhoneSharpIcon fontSize="medium" /></div> 
-              <div className={styles.icons} >+923217515234</div>
+              <div className={styles.icons} >+92 321 4737549</div>
               </Box>
               <Box className={styles.boxIcon} >
              <div className={styles.ico}  ><WhatsAppIcon fontSize="medium" /></div> 
-              <div className={styles.icons} >+923217515234</div>
+              <div className={styles.icons} >+92 321 4737549</div>
               </Box>
               <Box className={styles.boxIcon} >
              <div className={styles.ico}  ><EmailIcon fontSize="medium" /></div> 
-              <div className={styles.icons} >abc@gmail.com</div>
+              <div className={styles.icons} >shafique.chouhan@green-clothing.com</div>
               </Box>
               <Box className={styles.boxIcon} >
              <div className={styles.ico}  ><LocationOnIcon fontSize="medium" /></div> 
